@@ -24,7 +24,7 @@ def predict():
     #else:
      #   output='low'  
 
-    return render_template('about.html',data=output)
+    return render_template('action.html',data=output)
 
 
 if __name__ == "__main__":
